@@ -25,12 +25,22 @@
    {
     float: left;
     margin: 15px;
+    line-height: 0px;
+    margin-left: -10px;
 
    }
-   header nav:nth-child(2) p {
+   header nav p:nth-child(1)  {
 
-    line-height: 0px;
-    margin-left: -25px;
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Yellowtail', cursive;
+    margin-top: 14px;
+
+   }
+   header nav p:nth-child(2){
+    font-size: 10px;
+    color: rgb(124, 117, 117);
+
 
    }
 
